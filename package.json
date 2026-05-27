@@ -1,0 +1,14 @@
+{
+  "name": "ananta888-github-io",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0",
+    "jsdom": "^24.0.0",
+    "@playwright/test": "^1.44.0"
+  }
+}
